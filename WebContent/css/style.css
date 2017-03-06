@@ -1,0 +1,235 @@
+		/****	Body	****/
+
+body{
+	margin: 0px;
+	background-color: rgb(240,240,240);
+}
+
+		/****	Header	****/
+
+header{
+	background-color: rgb(240,240,240);
+	color: rgb(160,0,0);
+	padding: 10px;
+	padding-top: 35px;
+	padding-left: 30px;
+	font-size: 26pt;
+	margin-bottom: 0px
+}
+
+		/****	Nav	****/
+
+nav{
+	background-color: rgb(240,240,240);
+	color: white;
+	margin-top: 0px;
+	padding-top: 0px;
+	
+}
+
+nav ul{
+	padding:0px;
+	margin:0px;
+	
+}
+
+nav li{
+	display: inline-block;
+	
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav button{
+	background: none;
+	border: none;
+	padding: 12px;
+	color: rgb(160,0,0);
+}
+
+nav button:hover{
+	background-color: rgb(250,65,65);
+	border: none;
+	padding: 12px;
+	color: white;
+}
+
+.sombra{
+	margin-top: -16px;
+	height: 10px;
+	box-shadow: inset 0px 22px 2px -18px rgba(130,0,0,0.5);
+}
+
+
+		           /****	Main	****/
+
+/**** Cronograma ****/
+
+.containerLinhas:hover{
+	background-color: rgba(250,0,0,0.05);
+}
+
+.capDivision{
+	background-color: ;
+	color:rgb(50,50,50);
+	text-align: center;
+	box-shadow: 0px 5px 5px rgb(200,200,200);
+	padding: 15px;
+	padding-top: 20px;
+	margin-top: 0px;
+	font-size: 14pt;
+	
+	display: block;
+}
+
+.containerLinhas{
+	display: inline-block;
+	width: 100%;
+}
+
+.majorCell{
+	background-color: white;
+	float: left;
+	align-items: center;
+	margin: 25px;
+	box-shadow: 0px 2px 8px rgb(180,180,180);
+	border-radius: 25px;
+	padding: 15px;
+	font-size: 14px;
+	font-family: helvetica;
+	color: rgb(40,40,40);
+}
+
+.majorCell table{
+	margin: 5px;
+}
+
+.conteudo{
+	margin: 5px;
+}
+
+.minorCell{
+	background-color: orange;
+	box-shadow: 0px 2px 5px rgb(180,180,180);
+	border-radius: 15px;
+	color:rgb(50,50,50);
+	
+	display: inline-block;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 10px;
+	
+	
+	margin-top: 50px;
+	
+}
+
+.tituloEvento{
+	width: 100%;
+}
+
+section{
+	white-space: nowrap;
+}
+
+section hr{
+	margin: auto;
+	height: 0px;
+	border: 0.5px solid  rgba(100,50,50,.2);
+	box-shadow: 0px 1px 3px rgba(80,0,0,0.3);
+}
+
+
+/**** formularios ****/
+
+form{
+  margin: auto;
+	width: 430px;
+	padding: 15px;
+	padding-top: 60px;
+	background-color: rgb(240,240,240);
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.0);
+}
+
+fieldset{
+	
+	border: none;
+	/*border-color: white;*/
+	
+	color: rgb(120,0,0);
+	font-size: 14pt;
+	font-family: arial;
+	margin: 10px;
+	padding-right: 35px;
+	padding: 50px;
+}
+
+fieldset div{
+	margin: 10px;
+}
+
+label{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 13px;
+}
+
+input{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 40px;
+	background-color: rgb(245,245,245);
+	border-radius: 12px;
+	border: none;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	margin: 13px;
+}
+
+select{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 40px;
+	background-color: rgb(245,245,245);
+	border-radius: 12px;
+	border: none;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	margin: 13px;
+	
+}
+
+#containerDeSelects{
+	margin: 0px;
+}
+
+.enviar{
+	margin: 13px;
+	margin-top: 30px;
+	background-color: rgb(210,210,210);
+	border: thin solid rgba(0,0,0,0.08);
+}
+
+#add{
+	margin-left: 47%;
+	background-color: rgb(210,210,210);
+	border: thin solid rgba(0,0,0,0.08);
+	border-radius: 6px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+#hid{
+	display: none;
+}
+
+		/****	Section	****/
+
+
+		/****	Footer	****/
+
+
